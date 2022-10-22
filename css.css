@@ -10,23 +10,23 @@ font-family: "Montserrat", sans-serif; margin:0;}
 .links a{color:white; text-decoration:none; padding:10px;}
 .tpc{ background-color: yellow; padding: 6px; color: black; display:none;}
 .hamburger{float:right;}
-@media (min-width:768px) {  .dev{padding:20px 60px 20px 60px; justify-content:space-between;} .links{ display:none;} 
+@media (min-width:550px) {  .dev{padding:20px 60px 20px 60px; justify-content:space-between;} .links{ display:none;} 
 .tpc{display:none;}  }
-@media screen and (min-width:992px) { .dev{padding:40px 100px 20px 100px; } .links{display:inline;} .tpc{display:inline;} 
+@media screen and (min-width:850px) { .dev{padding:40px 100px 20px 100px; } .links{display:inline;} .tpc{display:inline;} 
 .hamburger{display:none;}  }
 
 
 .head{ padding:30px 50px 40px 50px; }
 .head h4{font-size: 30px; margin-bottom:0px;}
 .head p{font-size:15px; line-height:1.6;}
-@media screen and  (min-width:768px) { .head{ padding: 5px 60px 10px 60px;} .head h4{ font-size: 55px;}  .head p{ font-size:20px;}      }
-@media (min-width:992px) { .head{ padding: 10px 100px 20px 100px; max-width:800px;} .head h4{font-size: xxx-large;}
+@media screen and  (min-width:550px) { .head{ padding: 5px 60px 10px 60px;} .head h4{ font-size: 55px;}  .head p{ font-size:20px;}      }
+@media (min-width:850px) { .head{ padding: 10px 100px 20px 100px; max-width:800px;} .head h4{font-size: xxx-large;}
 .head p{font-size: 17px;} }
 
 .logo{ display:flex; flex-wrap:wrap; justify-content:center; width:85%; margin:auto; margin-bottom:65px;}
 .logos { align-items:center; padding:11px; }
-@media screen and (min-width:768px) { .logo{ justify-content:space-around; margin:auto;} .logos { align-items:center; padding-right:45px; padding-left:45px; } }
-@media (min-width:992px) {  .logo{ padding: 10px 100px 20px 100px; width:100%; justify-content:space-between;  }
+@media screen and (min-width:550px) { .logo{ justify-content:space-around; margin:auto;} .logos { align-items:center; padding-right:45px; padding-left:45px; } }
+@media (min-width:850px) {  .logo{ padding: 10px 100px 20px 100px; width:100%; justify-content:space-between;  }
  .logos{ padding:0px;}  }
 
 .web{padding:10px 50px 20px 50px;}
@@ -35,8 +35,8 @@ font-family: "Montserrat", sans-serif; margin:0;}
 .sp{ flex:1; margin-bottom:50px;}
 .pics p {font-size:15px; line-height:1.6;  }
 .pics a{font-size:30px;}
-@media screen and (min-width:768px) {.pics p{ font-size:20px; }  .pics a{font-size:35px;} } 
-@media (min-width:992px){.web {padding:10px 100px 20px 100px;} .pics{ flex-direction:row; gap:50px;} .pics p {font-size:15px; line-height:1.6;  }
+@media screen and (min-width:550px) {.pics p{ font-size:20px; }  .pics a{font-size:35px;} } 
+@media (min-width:850px){.web {padding:10px 100px 20px 100px;} .pics{ flex-direction:row; gap:50px;} .pics p {font-size:15px; line-height:1.6;  }
 .pics a{font-size:30px;} }
 
 
@@ -44,8 +44,8 @@ font-family: "Montserrat", sans-serif; margin:0;}
  .first{display:flex; flex-direction:column; padding: 20px 60px 20px 60px; }
 .he p{font-size:15px; line-height:1.6;}
 .he h2{font-size:30px; }
-@media screen and (min-width:768px) { .he p{font-size:20px;} .he h2{font-size:35px; }  }
-@media (min-width:992px) { .first{ flex-direction:row; gap:50px;  padding:10px 100px 20px 100px; 
+@media screen and (min-width:550px) { .he p{font-size:20px;} .he h2{font-size:35px; }  }
+@media (min-width:850px) { .first{ flex-direction:row; gap:50px;  padding:10px 100px 20px 100px; 
  justify-content:space-between;}  .he2{ margin-left: 22px; margin-top: 10px;} .he h2{font-size:30px; } .he p{font-size:15px; line-height:1.6;} }
 
 
@@ -53,11 +53,11 @@ font-family: "Montserrat", sans-serif; margin:0;}
 .second p{font-size:15px; line-height:1.6; margin-top:0px;}
 .second h2{font-size:30px; margin-bottom:0px;}
 .get{background-color: yellow; padding: 6px; color: black; }
-@media screen and (min-width:768px) {.second p{font-size:20px; } .second h2{font-size:35px; } }
-@media (min-width:992px) { .second{ padding:40px 100px 40px 100px; }  .second h2{max-width:550px; font-size:30px; }  .second p{max-width:400px; font-size:15px; }   }
+@media screen and (min-width:550px) {.second p{font-size:20px; } .second h2{font-size:35px; } }
+@media (min-width:850px) { .second{ padding:40px 100px 40px 100px; }  .second h2{max-width:550px; font-size:30px; }  .second p{max-width:400px; font-size:15px; }   }
 
 .last{background-color: #2e3038;  padding:0px 50px 0px 50px; }
 .lastt{display:flex; justify-content:space-between;  align-items:center;
  align-content:center; }
 .socials img{margin-right:5px; border-radius:50%;}
-@media (min-width:992px) {  .last{padding:0px 100px 0px 100px; }    } 
+@media (min-width:850px) {  .last{padding:0px 100px 0px 100px; }    } 
