@@ -60,5 +60,6 @@ font-family: "Montserrat", sans-serif; margin:0;}
 .last{background-color: #2e3038;  padding:0px 50px 0px 50px; }
 .lastt{display:flex; justify-content:space-between;  align-items:center;
  align-content:center; }
+.lastt p{font-size:10px;}
 .socials img{margin-right:5px; border-radius:50%;}
 @media screen and (min-width:850px) {  .last{padding:0px 70px 0px 70px; }    } 
