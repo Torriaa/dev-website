@@ -21,8 +21,8 @@ a{color:white; text-decoration:none;}
 
 /* Start Second Section */
 .content{ padding:10px 20px 20px 20px; }
-.content h4{font-size: 30px; margin-bottom:0px;  font-family:"Prata", serif;}
-.content p{font-size:15px; line-height:1.6; font-family: "Inter", sans-serif;}
+.content h4{font-size: 30px; margin-bottom:0px;  font-family:"Prata", serif; font-weight: normal;}
+.content p{font-size:15px; line-height:1.6; font-family: "Inter", sans-serif; color: rgb(182, 182, 182);}
 @media screen and  (min-width:550px) { .content{ padding: 5px 60px 10px 60px;} .content h4{ font-size: 4vw;} 
 .content p{font-size:2vw;} }
 @media screen and (min-width:850px) { .content{ padding: 10px 70px 20px 70px; max-width:750px;} 
@@ -32,7 +32,7 @@ a{color:white; text-decoration:none;}
 /* Start Third Section */
 .logo{ display:flex; flex-wrap:wrap; justify-content:center; width:85%; margin:auto; margin-bottom:65px;}
 .logos { align-items:center; padding:11px; }
-@media screen and (min-width:550px) { .logo{ justify-content:space-around; margin:auto;} 
+@media screen and (min-width:550px) { .logo{ justify-content:space-around; margin:auto; width:85%;} 
 .logos { align-items:center; padding-right:45px; padding-left:45px; } }
 @media screen and (min-width:850px) {  .logo{ padding: 10px 70px 20px 70px; width:100%; justify-content:space-between;  }
  .logos{ padding:0px;}  }
@@ -43,7 +43,7 @@ a{color:white; text-decoration:none;}
 .pics{display:flex; flex-direction:column;}	
 .img{width:100%; margin-bottom:10px;}
 .image{ flex:1; margin-bottom:50px;}
-.pics p {font-size:15px; line-height:1.6; font-family:"Inter", sans-serif;  }
+.pics p {font-size:15px; line-height:1.6; font-family:"Inter", sans-serif; color: rgb(182, 182, 182); }
 .pics a{font-size:30px; font-family:  "Prata", serif;}
 @media screen and (min-width:550px) {.pics p{ font-size:2vw; }  .pics a{font-size:3vw;} } 
 @media screen and (min-width:850px){.fourth {padding:10px 70px 20px 70px;} .pics{ flex-direction:row; gap:50px;}
@@ -54,8 +54,8 @@ a{color:white; text-decoration:none;}
 /* Start Fifth Section */
 .information{background-color:#2e3038;  }
  .first{display:flex; flex-direction:column; padding: 10px 20px 10px 20px; }
-.info p{font-size:15px; line-height:1.6; font-family: "Inter", sans-serif;}
-.info h2{font-size:30px; font-family: "Prata", serif;}
+.info p{font-size:15px; line-height:1.6; font-family: "Inter", sans-serif; color: rgb(182, 182, 182);}
+.info h2{font-size:30px; font-family: "Prata", serif; font-weight: normal;}
 @media screen and (min-width:550px) { .info p{font-size:2vw;} .info h2{font-size:3vw; }  }
 @media  screen and (min-width:850px) { .first{ flex-direction:row; gap:50px;  padding:10px 70px 20px 70px; 
  justify-content:space-between;}  .info2{ margin-left: 22px; margin-top: 10px;} .info h2{font-size:2vw; } 
@@ -64,8 +64,8 @@ a{color:white; text-decoration:none;}
 
 /* Start Sixth Section */
 .second{ padding:10px 20px 20px 20px;}
-.second p{font-size:15px; line-height:1.6; margin-top:0px; font-family:"Inter", sans-serif; }
-.second h2{font-size:30px; margin-bottom:0px; font-family: "Prata", serif;}
+.second p{font-size:15px; line-height:1.6; margin-top:0px; font-family:"Inter", sans-serif; color: rgb(182, 182, 182);}
+.second h2{font-size:30px; margin-bottom:0px; font-family: "Prata", serif; font-weight: normal; }
 .get{background-color: yellow; padding: 6px; color: black; }
 @media screen and (min-width:550px) {.second p{font-size:2vw; } .second h2{font-size:3vw; } }
 @media screen and (min-width:850px) { .second{ padding:40px 70px 40px 70px; } 
