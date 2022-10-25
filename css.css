@@ -3,12 +3,13 @@ body{background-color: black; color: white; font-family: "Fraunces", san-serif;
 font-family: "Montserrat", sans-serif; margin:0;} 
 a{color:white; text-decoration:none;}
 
+
 /* Start First Section */
 .header{padding:20px 20px 10px 20px; display:flex; justify-content:space-between;}
-.name{letter-spacing:-1px;}
+.name{letter-spacing:-1px; font-family: 'Inter', sans-serif; }
 .links{display:none;}
 .links a{color:white; text-decoration:none; padding:10px;}
-.touch{ background-color: yellow; padding: 6px; color: black; display:none;}
+.touch{ background-color: yellow; padding: 8px; color: black; display:none; font-family: 'Inter', sans-serif;}
 .hamburger{float:right;}
 @media  screen and (min-width:550px) {  .header{padding:20px 60px 20px 60px; justify-content:space-between;} 
 .links{ display:none;} 
@@ -20,8 +21,8 @@ a{color:white; text-decoration:none;}
 
 /* Start Second Section */
 .content{ padding:10px 20px 20px 20px; }
-.content h4{font-size: 30px; margin-bottom:0px; }
-.content p{font-size:15px; line-height:1.6;}
+.content h4{font-size: 30px; margin-bottom:0px;  font-family: 'Inter', sans-serif;}
+.content p{font-size:15px; line-height:1.6; font-family: 'Prata', serif;}
 @media screen and  (min-width:550px) { .content{ padding: 5px 60px 10px 60px;} .content h4{ font-size: 4vw;} 
 .content p{font-size:2vw;} }
 @media screen and (min-width:850px) { .content{ padding: 10px 70px 20px 70px; max-width:750px;} 
@@ -42,8 +43,8 @@ a{color:white; text-decoration:none;}
 .pics{display:flex; flex-direction:column;}	
 .img{width:100%; margin-bottom:10px;}
 .image{ flex:1; margin-bottom:50px;}
-.pics p {font-size:15px; line-height:1.6;  }
-.pics a{font-size:30px;}
+.pics p {font-size:15px; line-height:1.6; font-family: 'Prata', serif; }
+.pics a{font-size:30px; font-family: 'Inter', sans-serif;}
 @media screen and (min-width:550px) {.pics p{ font-size:2vw; }  .pics a{font-size:3vw;} } 
 @media screen and (min-width:850px){.fourth {padding:10px 70px 20px 70px;} .pics{ flex-direction:row; gap:50px;}
  .pics p{font-size:1vw; line-height:1.6;  }
@@ -53,8 +54,8 @@ a{color:white; text-decoration:none;}
 /* Start Fifth Section */
 .information{background-color:#2e3038;  }
  .first{display:flex; flex-direction:column; padding: 10px 20px 10px 20px; }
-.info p{font-size:15px; line-height:1.6;}
-.info h2{font-size:30px; }
+.info p{font-size:15px; line-height:1.6; font-family: 'Prata', serif;}
+.info h2{font-size:30px; font-family: 'Inter', sans-serif;}
 @media screen and (min-width:550px) { .info p{font-size:2vw;} .info h2{font-size:3vw; }  }
 @media  screen and (min-width:850px) { .first{ flex-direction:row; gap:50px;  padding:10px 70px 20px 70px; 
  justify-content:space-between;}  .info2{ margin-left: 22px; margin-top: 10px;} .info h2{font-size:2vw; } 
@@ -63,8 +64,8 @@ a{color:white; text-decoration:none;}
 
 /* Start Sixth Section */
 .second{ padding:10px 20px 20px 20px;}
-.second p{font-size:15px; line-height:1.6; margin-top:0px;}
-.second h2{font-size:30px; margin-bottom:0px;}
+.second p{font-size:15px; line-height:1.6; margin-top:0px; font-family: 'Prata', serif;}
+.second h2{font-size:30px; margin-bottom:0px; font-family: 'Inter', sans-serif;}
 .get{background-color: yellow; padding: 6px; color: black; }
 @media screen and (min-width:550px) {.second p{font-size:2vw; } .second h2{font-size:3vw; } }
 @media screen and (min-width:850px) { .second{ padding:40px 70px 40px 70px; } 
